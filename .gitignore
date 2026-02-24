@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# MCP config (contains API keys and machine-specific paths)
+.mcp.json
+
+# Dev-only scripts with hardcoded credentials
+packages/api/scripts/test-key.ts
+
+# Test/debug output
+*_output.json
+*_output.html
+*_result.json
+
+# Temp data files (Windows paths with unicode colon)
+C?Users*
+
+# Windows artifacts
+nul
+
+# Reference files with secrets
+openai-api-reference.md
+api-keys.md
+
+# Misc
+*.tmp
+*.temp
+.cache/

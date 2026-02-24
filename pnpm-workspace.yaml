@@ -1,0 +1,7 @@
+packages:
+  - 'packages/*'
+  - 'scripts'
+
+onlyBuiltDependencies:
+  - argon2
+  - esbuild

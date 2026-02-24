@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "cortex": {
+      "command": "node",
+      "args": ["C:\\path\\to\\cortex\\packages\\mcp\\start.js"],
+      "env": {
+        "CORTEX_API_URL": "http://localhost:3000/v1",
+        "CORTEX_API_KEY": "your-cortex-api-key-from-seed-output"
+      }
+    }
+  }
+}
